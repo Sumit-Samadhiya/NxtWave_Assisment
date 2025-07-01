@@ -1,0 +1,421 @@
+.homepageparentcontainer{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(242, 242, 242);
+}
+
+.bigscreen{
+    display: flex;
+    width: 300px;
+}
+
+.smallscreen{
+    display: none;
+}
+
+.homepageleftcontainer{
+    padding: 2rem;
+    width: 100%;
+    margin: 2rem 1rem 2rem 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepagelogoname{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.navbarlink{
+    color: white;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbarlink:hover{
+    font-weight: 700;
+}
+
+.homepageleftcontactuscontainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+
+.homepagerightboxhamburgericon{
+    display: none;
+}
+
+.homepagerighcontainer{
+    margin: 30px 30px 30px 15px;
+    flex: 1;
+}
+
+.homepageuserimage{
+    width: 30px;
+    border-radius: 15px;
+    overflow:hidden
+}
+
+.homepageheadtag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepagerightboxiconbox{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.homepagerightboxrightcontent{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    background-color: #F5F5F5;
+
+}
+
+.bellicon{
+    font-size: 30px;
+}
+
+.homepagerightboxsearchbutton,.homepagerightboxsearchtag{
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+}
+
+.homepagerightboxsearchbutton{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.homepagerightboxsearchtag{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 15px;   
+}
+
+.homepagesearchbarinputcontainerforsmallscreen{
+    display: none;
+}
+
+.homepagerightboxsearchtag:focus{
+    outline: none;
+}
+
+.smallscreeninputcontainer{
+    display: none;
+}
+
+.smallscreenheading{
+    display: none;
+}
+
+.homepagefourcardcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0px;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.homepagefourcard{
+    min-width: 250px;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    flex: 1;
+}
+
+.aliceblue{
+    background-color: #DDEFE0;
+;
+}
+
+.antiquewhite{
+    background-color: #F4ECDD;
+
+}
+
+.aqua{
+    background-color: #EFDADA;
+
+}
+
+.gray{
+    background-color: #DEE0EF;
+
+}
+
+.homepagefourcontainericontag{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.homepagefourcardparatag{
+    font-weight: 600;
+}
+
+.homepagegrapharea{
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepagepichartrow{
+    padding-top: 2rem;
+}
+
+.homepagepichartrow{
+    width: 100%;
+    display: flex;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.piechartcontainer{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-width: 200px;
+    display: flex;
+    flex: 1;
+}
+
+.piecharttitle{
+    padding-bottom: 1rem;
+}
+
+.piechartrow{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.pie:focus{
+    outline: none;
+}
+
+.schedulearea{
+    flex-direction: column;
+}
+
+.homepageschedulebox{
+    margin: 20px 0px 0px 0px;
+    padding-left: 20px;
+}
+
+.homepagescheduleboxyellow{
+    border-left: solid 5px yellowgreen;
+}
+
+.homepagescheduleboxblue{
+    border-left: solid 5px blue;
+}
+
+.sheduleareatitleandseeallrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.scheduleareaseeall{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.legentcolorcircle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+
+.piechartlegendrow{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.legentarea{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.piechartheadingarea{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 426px) {
+    .piechartheadingarea{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .piechartrow{
+        flex-direction: column;
+    }
+}
+
+/* library code start */
+/* Apply styles for the chart container */
+.chart-container {
+    width: 100%;
+    margin: 0 auto; /* Center the chart horizontally */
+}
+    
+/* Apply styles for the transparent padding element */
+.padding-element {
+    height: 20px;
+}
+    
+/* Add media queries for responsive design */
+@media screen and (max-width: 768px) {
+    /* Apply responsive styling for smaller screens */
+    .chart-container {
+        max-width: 100%; /* Allow chart to take full width on smaller screens */
+    }
+}
+/* vickey code end */
+
+@media screen and (max-width:560px) {
+    .homepagefourcard{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .smallscreenheading{
+        display: flex;
+    }
+
+    .smallscreeninputcontainer{
+        display: flex;
+    }
+
+    .bigscreenheading{
+        display: none;
+    }
+
+    .homepagerightboxrightcontent{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bigscreensearchtag{
+        display: none;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .homepagerightboxhamburgericon{
+        display: block;
+        border: 0px;
+        background-color: transparent;
+    }
+
+    .navbarhamburgericon2{
+        color: white;
+        background-color: transparent;
+        border: 0px;
+        height: fit-content;
+    }
+
+    .navbarclosebutton{
+        display: flex;
+        justify-content: flex-end;
+        transition: width 2s;
+    }
+
+    .bigscreen{
+        display: none;
+    }
+
+    .smallscreen{
+        display: flex;
+        position: absolute;
+        height: 100vh;
+        color: white;
+        background-color: black;
+        padding: 1rem;
+        z-index: 1;
+    }
+
+    .smallscreenhide{
+        left: -250px;
+        transition: ease-in-out 0.5s;
+    }
+
+    .smallscreenshow{
+        left: 0px;
+        transition: ease-in-out 0.5s;
+    }
+
+    .homepageleftcontainer{
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .homepagerighcontainer{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:560px) {
+
+    .homepagerightboxrightcontent{
+        display: flex;
+    }
+
+    .bigscreensearchtag{
+        flex: 1;
+    }
+
+    .homepagerightboxrightcontent{
+        width: 100%;
+        display: flex;
+    }
+    .homepageheadtag{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 10px 0px;
+    }
+
+    .homepagerightboxrightcontent,.homepagesearchbarinputcontainer{
+        width: 100%;
+        display: flex;
+    }
+
+    .homepagerightboxsearchtag{
+        flex: 1;
+    }
+}

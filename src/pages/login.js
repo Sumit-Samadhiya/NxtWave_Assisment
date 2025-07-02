@@ -15,7 +15,7 @@ export default function Login() {
     setError("");
     try {
       const response = await fetch(
-        `http://localhost:3001/users?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`
+        `https://nxtwave-assisment.onrender.com/users?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`
       );
       const users = await response.json();
       if (users.length > 0) {

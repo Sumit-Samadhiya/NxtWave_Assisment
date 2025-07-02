@@ -15,14 +15,14 @@ export default function Register() {
     setSuccess("");
     try {
       const response = await fetch(
-        `http://localhost:3001/users?email=${encodeURIComponent(email)}`
+        `https://nxtwave-assisment.onrender.com/users?email=${encodeURIComponent(email)}`
       );
       const users = await response.json();
       if (users.length > 0) {
         setError("User already exists");
       } else {
         // Register the user
-        await fetch(`http://localhost:3001/users`, {
+        await fetch(`https://nxtwave-assisment.onrender.com/users`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email, password })

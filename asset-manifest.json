@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Sumit-Samadhiya/NxtWave_Assisment.git/static/css/main.b469246c.css",
-    "main.js": "/Sumit-Samadhiya/NxtWave_Assisment.git/static/js/main.b841fec6.js",
-    "index.html": "/Sumit-Samadhiya/NxtWave_Assisment.git/index.html",
-    "main.b469246c.css.map": "/Sumit-Samadhiya/NxtWave_Assisment.git/static/css/main.b469246c.css.map",
-    "main.b841fec6.js.map": "/Sumit-Samadhiya/NxtWave_Assisment.git/static/js/main.b841fec6.js.map"
+    "main.css": "/NxtWave_Assisment/static/css/main.f43994d3.css",
+    "main.js": "/NxtWave_Assisment/static/js/main.a6dc1c49.js",
+    "index.html": "/NxtWave_Assisment/index.html",
+    "main.f43994d3.css.map": "/NxtWave_Assisment/static/css/main.f43994d3.css.map",
+    "main.a6dc1c49.js.map": "/NxtWave_Assisment/static/js/main.a6dc1c49.js.map"
   },
   "entrypoints": [
-    "static/css/main.b469246c.css",
-    "static/js/main.b841fec6.js"
+    "static/css/main.f43994d3.css",
+    "static/js/main.a6dc1c49.js"
   ]
 }

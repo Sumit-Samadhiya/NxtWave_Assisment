@@ -17,8 +17,8 @@ function App() {
         <Routes>
           {/* <Route exact path="/" Component={Home} />
           <Route path="/login" Component={Login} /> */}
-          <Route path="*" Component={Pagenotfound} />
-          <Route path="/" element={<Login />} />
+          // <Route path="*" Component={Pagenotfound} />
+          <Route path="*" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/register" element={<Register />} />
         </Routes>
